@@ -28,3 +28,4 @@ dist-ssr
    *.pyc
    dist/
    .vscode/
+   backend/text_emotion_model/model.safetensors
