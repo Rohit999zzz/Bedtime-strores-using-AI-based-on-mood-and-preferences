@@ -16,7 +16,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Configure Gemini API
-configure(api_key='AIzaSyDHBdeBXi8Vo-a2UxBigypcTASPcNHkMhA')
+configure(api_key='api_key')
 model = GenerativeModel('gemini-2.0-flash')
 
 # Configure ElevenLabs
