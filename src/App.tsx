@@ -6,7 +6,7 @@ import EmotionStory from './components/EmotionStory';
 type Mood = 'happy' | 'sleepy' | 'excited' | 'calm';
 type Theme = 'space' | 'nature' | 'magic' | 'animals';
 
-const genAI = new GoogleGenerativeAI('AIzaSyDHBdeBXi8Vo-a2UxBigypcTASPcNHkMhA');
+const genAI = new GoogleGenerativeAI('gemmini-api-key');
 
 function App() {
   const [name, setName] = useState('');
